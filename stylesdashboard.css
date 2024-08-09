@@ -1,0 +1,68 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dcf5dc;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+    text-align: center;
+}
+
+.profile-picture {
+    display: block;
+    margin: 20px auto;
+    width: 150px; /* Size of the profile picture */
+    height: 150px; /* Same as width to ensure it's a circle */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image fits well inside the circle */
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animation for profile picture */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.bio {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+
+.dashboard-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Add these styles to your stylesdashboard.css file or within a <style> tag in your HTML */
+.stats-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats-container p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 16px;
+}

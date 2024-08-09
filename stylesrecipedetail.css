@@ -1,0 +1,172 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B6B2B2;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-detail {
+    margin-bottom: 20px;
+}
+
+.recipe-detail h2 {
+    margin-top: 0;
+}
+
+.recipe-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.recipe-info {
+    margin-top: 20px;
+}
+
+.section-container {
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-container h3 {
+    margin-top: 0;
+}
+
+
+.recipe-info p {
+    margin: 10px 0;
+}
+
+.recipe-video {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.recipe-video button {
+    margin-top: 10px;
+}
+
+/* Review styles */
+.reviews {
+    margin-top: 30px;
+}
+
+.reviews h3 {
+    margin-bottom: 20px;
+}
+
+.review {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+.review strong {
+    font-size: 1.1em;
+}
+
+.review em {
+    font-size: 0.9em;
+    color: #888;
+    display: block;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Star rating styles */
+.star-rating {
+    font-size: 2rem;
+    direction: rtl;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    color: #ddd;
+    cursor: pointer;
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+    color: #ffcc00;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffcc00;
+}
+
+
+.recipe-video-container {
+    text-align: center;
+}
+
+.video-buttons {
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.recipe-image-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.recipe-image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
